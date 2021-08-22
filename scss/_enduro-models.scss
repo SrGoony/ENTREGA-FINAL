@@ -1,0 +1,545 @@
+
+
+.main_enduro-KTM-450{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/KTM-450-EXC-F2022-portada.jpg);
+    height: 100vh;
+    background-position: right;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+.main_enduro-KTM-450 h2{
+font-size: 40px;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 8px !important;
+text-align: center;
+   
+}
+
+.main_enduro-KTM-450 p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro-KTM-450 h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-KTM-450 h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-KTM-450 h2{
+        
+       font-size: 100px;  
+    }
+}
+ //::::::::::::: F I N - C A B E Z A - K T M - 4 5 0 ::::::::::::::::::::://
+
+ .container-modelsCatalogo{
+     background: rgb(202, 202, 202) ;
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+
+ .container-modelBike{
+     display: flex;
+     flex-flow: column nowrap;
+     .container-modelBike__description{
+         padding: 20px;
+         background-color: #fff ;
+         h2{
+             font-size: 30px;
+             border-bottom: 1px solid black;
+         }
+
+         p{
+             text-align: justify;
+         }
+     }
+
+ }
+
+ .container-modelBike-motor{
+    display: flex;
+    flex-flow: column nowrap;
+    .container-modelBike__description-motor{
+        padding: 20px;
+        background: #fff ;
+        margin-top: 30px;
+
+        h3{
+            font-size: 30px;
+        }
+    }
+ }
+
+ .container-modelBike-rueda{
+    display: flex;
+    flex-flow: column nowrap;
+    .container-modelBike__description-rueda{
+        padding: 20px;
+        background: #fff ;
+        margin-top: 30px;
+
+        h3{
+            font-size: 30px;
+        }
+    }
+ }
+
+ @media (min-width:768px){
+    .container-modelsCatalogo{
+        h2, h3{
+            font-size: 50px !important;
+            padding-top: 20px;
+        }
+        p{
+            font-size: 20px !important;
+        }
+    }
+ }
+
+ @media (min-width:1024px){
+    .container-modelsCatalogo{
+        background-color: #fff;
+        h2, h3{
+            font-size: 70px !important;
+            padding-top: 20px;
+        }
+       
+
+    }
+
+    .container-modelBike{
+        padding: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        .container-modelBike__description{
+            width: 50% !important;
+        }
+
+        .container-modelBike__img{
+            width: 45% !important;
+            height: auto;
+        }
+        
+
+}
+}
+
+
+//::::::::::::: M O T O R :::::::::::::::::::::::///
+@media (min-width: 1024px){
+
+    .container-modelBike-motor{
+        padding: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        .container-modelBike__description-motor{
+            width: 50% !important;
+            order: 1;
+        }
+
+        .container-modelBike__img-motor{
+            width: 45% !important;
+            height: auto;
+            order: 0;
+            img{
+                max-height: 500px;
+                width: auto;
+            }
+        }
+        
+
+}
+}
+
+//:::::::::::::::: R U E D A:::::::::::::::::::://
+
+
+@media (min-width: 1024px){
+
+    .container-modelBike-rueda{
+        padding: 30px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+
+        .container-modelBike__description-rueda{
+            width: 50% !important;
+            order: 0;
+        }
+
+        .container-modelBike__img-rueda{
+            width: 45% !important;
+            height: auto;
+            order: 1;
+        }
+        
+
+}
+}
+
+//:::::::::::::::::::::: K T M - 1 5 0 :::::::::::::::::::::::::::::::::::://
+
+.main_enduro-KTM-150{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/KTM-150-EXC-TPI-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    .main_enduro-KTM-150 h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px !important;
+    text-align: center;
+   
+}
+
+.main_enduro-KTM-150 p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro-KTM-150 h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-KTM-150 h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-KTM-150 h2{
+        
+       font-size: 100px;  
+    }
+}
+
+//:::::::::::::::::::::: H U S - 1 5 0 :::::::::::::::::::::::::::::::::::://
+
+.main_enduro-HUS-150{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/husqvarna-TE-150i-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    .main_enduro-HUS-150 h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px !important;
+    text-align: center;
+   
+}
+
+.main_enduro-HUS-150 p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro-HUS-150 h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-HUS-150 h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-HUS-150 h2{
+        
+       font-size: 100px;  
+    }
+}
+
+
+//:::::::::::::::::::::: H U S- 4 5 0 :::::::::::::::::::::::::::::::::::://
+
+.main_enduro-HUS-450{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/husqvarna-FE-450-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    .main_enduro-HUS-450 h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px !important;
+    text-align: center;
+   
+}
+
+.main_enduro-HUS-450 p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro-HUS-450 h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-HUS-450 h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-HUS-450 h2{
+        
+       font-size: 100px;  
+    }
+}
+
+
+//:::::::::::::::::::::: H O N D A - 1 5 0 X R :::::::::::::::::::::::::::::::::::://
+
+.main_enduro-Honda-150{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/honda-xr150-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    .main_enduro-Honda-150 h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px !important;
+    text-align: center;
+   
+}
+
+.main_enduro-Honda-150 p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+.container-modelBike__img-motor{
+    
+    img{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+@media (min-width:480px){
+    .main_enduro-Honda-150 h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-Honda-150 h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-Honda-150 h2{
+        
+       font-size: 100px;  
+    }
+}
+
+
+//:::::::::::::::::::::: H O N D A - T O R N A D O :::::::::::::::::::::::::::::::::::://
+
+.main_enduro-Honda-tornado{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/honda-tornado-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+    .main_enduro-Honda-tornado h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px !important;
+    text-align: center;
+   
+}
+
+.main_enduro-Honda-tornado p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro-Honda-tornado h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro-Honda-tornado h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro-Honda-tornado h2{
+        
+       font-size: 100px;  
+    }
+
+    .container-modelBike-motor{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+     }
+}
+
+

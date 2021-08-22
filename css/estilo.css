@@ -1,0 +1,1444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container-models {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+ul li {
+  list-style: none; }
+
+img {
+  width: 100%; }
+
+/*Variables*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px;
+  font-weight: bold; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Oswald', sans-serif; }
+
+p {
+  font-family: 'Oswald', sans-serif; }
+
+span {
+  font-family: 'Oswald', sans-serif; }
+
+footer {
+  height: 100%;
+  margin-top: 30px;
+  background-color: #17202A; }
+  footer .container-footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px; }
+    footer .container-footer p {
+      color: #fff;
+      width: 60%; }
+  footer .volver-top {
+    color: chocolate;
+    border: 2px chocolate solid;
+    padding: 5px; }
+  footer .volver-top:hover {
+    color: #fff;
+    background-color: chocolate; }
+
+@media (min-width: 1024px) {
+  .container-modelBike {
+    display: flex;
+    flex-flow: row nowrap; }
+    .container-modelBike .container-modelBike__description {
+      width: 45% !important; }
+    .container-modelBike .container-modelBike__img {
+      width: 45% !important; } }
+
+.container-fichaTecnica {
+  padding: 30px 20px;
+  text-align: center;
+  margin: 30px 0; }
+  .container-fichaTecnica .btn-descargar {
+    color: #fff;
+    background-color: chocolate;
+    padding: 20px 30px;
+    transition: 0.3s; }
+  .container-fichaTecnica .btn-descargar:hover {
+    background: #fff;
+    color: chocolate;
+    border: 2px solid chocolate; }
+
+.header {
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
+
+.main {
+  position: relative;
+  background-image: url(../mutimedia/Portada//KTM-Duke-1290portada.jpg);
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.header-description__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.main p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+.main .readMore {
+  background: chocolate;
+  color: #fff;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+.main .readMore:hover {
+  background: rgba(0, 0, 0, 0);
+  color: chocolate !important;
+  border: 2px solid  chocolate;
+  transition: 0.2s; }
+
+.navbar-brand {
+  width: 150px !important; }
+
+.navbar-brand img {
+  width: 100%;
+  height: auto;
+  background: #fff; }
+
+ul {
+  background: rgba(0, 0, 0, 0.8); }
+
+ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px; }
+
+ul li a {
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px;
+  color: #fff !important; }
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.8) !important;
+  padding: 0; }
+
+.navbar-brand img {
+  padding-top: 10px;
+  transform: translateY(-20px) !important; }
+
+.navbar-brand {
+  width: 100px !important; }
+
+@media (min-width: 480px) {
+  .main h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; }
+  .navbar-brand img {
+    padding-top: 30px;
+    transform: translateY(-20px) !important; } }
+
+@media (min-width: 768px) {
+  .main h2 {
+    font-size: 80px; }
+  .header-description__container {
+    transform: translateY(40px); } }
+
+@media (min-width: 990px) {
+  .main h2 {
+    font-size: 90px; }
+  nav {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    height: 100px; }
+  ul {
+    background: none; }
+  ul li {
+    border: none; }
+  .dropdown-menu:hover ul {
+    display: none; }
+  nav a:hover {
+    color: chocolate !important; }
+  .header-description__container {
+    transform: translateY(40px); } }
+
+#container-bestBike {
+  margin: 30px 0px 10px; }
+  #container-bestBike h2 {
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    padding: 0 20px; }
+
+@media (min-width: 480px) {
+  #container-bestBike
+h2 {
+    font-size: 50px; } }
+
+#container-models {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 90%; }
+  #container-models .container-model__enduro {
+    position: relative;
+    margin: 20px 0;
+    transition: all 0.25s; }
+    #container-models .container-model__enduro a img {
+      width: 100%;
+      height: 100%; }
+    #container-models .container-model__enduro a h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #fff;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 3px; }
+  #container-models .container-model__naked {
+    position: relative;
+    margin-bottom: 20px;
+    transition: all 0.25s; }
+    #container-models .container-model__naked a img {
+      width: 100%;
+      height: 100%;
+      transition: all 0.25s; }
+    #container-models .container-model__naked a h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #fff;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 40px;
+      font-weight: bold;
+      letter-spacing: 3px; }
+  #container-models .container-model__naked:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3) !important; }
+    #container-models .container-model__naked:hover h3 {
+      color: chocolate; }
+  #container-models .container-model__enduro:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3) !important; }
+    #container-models .container-model__enduro:hover h3 {
+      color: chocolate; }
+
+@media (min-width: 768px) {
+  #container-models {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; }
+    #container-models .container-model__enduro {
+      width: 48%;
+      overflow: hidden;
+      margin-right: 20px; }
+    #container-models .container-model__naked {
+      margin-top: 20px;
+      width: 48%;
+      overflow: hidden; } }
+
+@media (min-width: 1024px) {
+  #container-models .container-model__enduro a h3 {
+    font-size: 60px; }
+  #container-models .container-model__naked a h3 {
+    font-size: 60px; } }
+
+.noticias {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 40px;
+  color: #000; }
+
+@media (min-width: 480px) {
+  .noticias {
+    font-size: 50px; } }
+
+#container-novedades {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 90%; }
+  #container-novedades .container-novedades__n1 {
+    margin-bottom: 20px; }
+    #container-novedades .container-novedades__n1 img {
+      width: 100%;
+      height: auto; }
+    #container-novedades .container-novedades__n1 h4 {
+      margin: 15px 0; }
+    #container-novedades .container-novedades__n1 p {
+      text-align: justify; }
+  #container-novedades .container-novedades__n2 {
+    margin-bottom: 20px; }
+    #container-novedades .container-novedades__n2 img {
+      width: 100%;
+      height: auto; }
+    #container-novedades .container-novedades__n2 h4 {
+      margin: 15px 0; }
+    #container-novedades .container-novedades__n2 p {
+      text-align: justify; }
+  #container-novedades .container-novedades__n3 {
+    margin-bottom: 20px; }
+    #container-novedades .container-novedades__n3 img {
+      width: 100%;
+      height: auto; }
+    #container-novedades .container-novedades__n3 h4 {
+      margin: 15px 0; }
+    #container-novedades .container-novedades__n3 p {
+      text-align: justify; }
+
+@media (min-width: 768px) {
+  #container-novedades {
+    margin: 0 auto; }
+    #container-novedades .container-novedades__n1 {
+      margin-bottom: 50px; }
+      #container-novedades .container-novedades__n1 img {
+        width: 100%;
+        height: auto; }
+    #container-novedades .container-novedades__n2 {
+      margin-bottom: 50px; }
+      #container-novedades .container-novedades__n2 img {
+        width: 100%;
+        height: auto; }
+    #container-novedades .container-novedades__n3 {
+      margin-bottom: 50px; }
+      #container-novedades .container-novedades__n3 img {
+        width: 100%;
+        height: auto; } }
+
+@media (min-width: 1024px) {
+  #container-novedades {
+    display: flex;
+    justify-content: space-between; }
+    #container-novedades .container-novedades__n1 {
+      max-width: 31%;
+      overflow: hidden; }
+      #container-novedades .container-novedades__n1 img {
+        height: auto; }
+    #container-novedades .container-novedades__n2 {
+      max-width: 31%;
+      overflow: hidden; }
+      #container-novedades .container-novedades__n2 img {
+        height: auto; }
+    #container-novedades .container-novedades__n3 {
+      max-width: 31%; }
+      #container-novedades .container-novedades__n3 img {
+        height: auto; } }
+
+.danger {
+  margin: 0 auto;
+  max-width: 1440px;
+  text-align: center;
+  color: gray;
+  width: 90%;
+  border-top: 1px solid gray;
+  padding-top: 20px; }
+
+@media (max-width: 720px) {
+  .danger {
+    display: none; } }
+
+footer {
+  margin-top: 30px;
+  background-color: #17202A; }
+  footer .container-footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px; }
+    footer .container-footer p {
+      color: #fff; }
+  footer .volver-top {
+    color: orange;
+    border: 2px orange solid;
+    padding: 5px; }
+
+.main_enduro {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/husqvarna-TE-150i-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.main_enduro p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; }
+  .navbar-brand img {
+    padding-top: 30px;
+    transform: translateY(-20px) !important; } }
+
+@media (min-width: 768px) {
+  .main_enduro h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro h2 {
+    font-size: 90px; } }
+
+.container-title {
+  overflow: hidden;
+  width: 90%;
+  margin: 20px; }
+  .container-title img {
+    width: 100%;
+    height: auto; }
+  .container-title .container-title__description {
+    margin-bottom: 20px; }
+    .container-title .container-title__description h2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+      margin-top: 10px; }
+    .container-title .container-title__description p {
+      text-align: justify; }
+
+@media (min-width: 768px) {
+  .container-title {
+    margin: 0 auto;
+    max-height: 600px; }
+    .container-title .container-title__description h2 {
+      font-size: 50px; }
+    .container-title .container-title__description p {
+      font-size: 24px; } }
+
+@media (min-width: 1024px) {
+  .container-title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container-title .container-title__description {
+      width: 47%; }
+      .container-title .container-title__description h2 {
+        font-size: 70px; }
+    .container-title img {
+      width: 47%;
+      margin-top: 30px; } }
+
+.container-models .title-border-bottom {
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 1px solid gray; }
+
+@media (min-width: 768px) {
+  .title-border-bottom {
+    font-size: 50px; } }
+
+@media (min-width: 1024px) {
+  .title-border-bottom {
+    font-size: 70px;
+    padding-top: 40px; } }
+
+.container-cards {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto; }
+  .container-cards .card {
+    margin: 30px 20px;
+    width: 330px;
+    height: 300px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s; }
+    .container-cards .card img {
+      width: 100%;
+      height: auto; }
+    .container-cards .card h4 {
+      margin-top: 20px;
+      font-weight: 600; }
+  .container-cards .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3); }
+    .container-cards .card:hover a {
+      color: chocolate; }
+
+.banner-end__enduro {
+  position: relative;
+  margin: 0 auto;
+  width: 90%; }
+  .banner-end__enduro img {
+    width: 100%;
+    height: auto; }
+  .banner-end__enduro h5 {
+    position: absolute;
+    transform: translateX(5%) translateY(-140%);
+    color: #fff;
+    font-size: 20px;
+    width: 50%; }
+
+@media (min-width: 480px) {
+  .banner-end__enduro h5 {
+    font-size: 25px; } }
+
+@media (min-width: 768px) {
+  .banner-end__enduro {
+    margin-bottom: 20px; }
+    .banner-end__enduro h5 {
+      font-size: 50px;
+      transform: translateX(5%) translateY(-120%); } }
+
+@media (min-width: 1024px) {
+  .banner-end__enduro h5 {
+    width: 50%;
+    font-size: 70px;
+    transform: translateX(5%) translateY(-115%); } }
+
+@media (min-width: 1248px) {
+  .banner-end__enduro h5 {
+    transform: translateX(5%) translateY(-135%); } }
+
+.main_naked {
+  position: relative;
+  background-image: url(../mutimedia/Naked/KTM-1290-DUKE-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_naked h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.main_naked p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_naked h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_naked h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_naked h2 {
+    font-size: 90px; } }
+
+.container-banner-naked_img {
+  width: 100%; }
+  .container-banner-naked_img img {
+    width: 100%;
+    height: auto; }
+
+#title-border-bottom-enduro {
+  text-align: end; }
+
+.container-naked_article {
+  width: 90%;
+  margin: 0 auto; }
+  .container-naked_article img {
+    width: 100%; }
+  .container-naked_article .container-naked_article__description h4 {
+    margin-bottom: 10px;
+    font-size: 25px; }
+  .container-naked_article .container-naked_article__description p {
+    margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .container-naked_article img {
+    margin-bottom: 20px; }
+  .container-naked_article .container-naked_article__description h4 {
+    font-size: 50px; }
+  .container-naked_article .container-naked_article__description p {
+    font-size: 24px; } }
+
+@media (min-width: 1024px) {
+  .container-naked_article {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .container-naked_article .container-naked_article__description {
+      margin: 10px 0;
+      width: 47%; }
+      .container-naked_article .container-naked_article__description h4 {
+        font-size: 60px; }
+    .container-naked_article img {
+      width: 47%; } }
+
+.main_contacto {
+  position: relative;
+  background-color: #3d69a3;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_contacto h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.main_contacto p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_contacto h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_contacto h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_contacto h2 {
+    font-size: 90px; } }
+
+#container-body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 10px; }
+
+.container-all-form {
+  max-width: 1100px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .container-all-form .container-form {
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px; }
+    .container-all-form .container-form h1 {
+      border-bottom: 1px solid black;
+      margin-bottom: 20px; }
+    .container-all-form .container-form p {
+      text-align: center; }
+      .container-all-form .container-form p a {
+        color: chocolate; }
+    .container-all-form .container-form form {
+      display: flex;
+      flex-flow: column nowrap; }
+      .container-all-form .container-form form input {
+        margin-top: 10px;
+        padding: 10px; }
+      .container-all-form .container-form form textarea {
+        margin-top: 10px;
+        padding: 10px; }
+  .container-all-form .form-img {
+    width: 45%; }
+    .container-all-form .form-img img {
+      width: 100%; }
+
+@media (min-width: 1024px) {
+  .container-all-form .form-img {
+    overflow: hidden; }
+    .container-all-form .form-img img {
+      height: 750px;
+      width: auto; } }
+
+@media (max-width: 1023px) {
+  .container-all-form {
+    display: flex;
+    flex-flow: column nowrap; }
+    .container-all-form .container-form {
+      width: 100%;
+      padding-right: 30px; }
+    .container-all-form .form-img {
+      display: none; } }
+
+.main_our {
+  position: relative;
+  background-image: url(../mutimedia/banners/baner-nostros.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_our h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.main_our p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_our h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_our h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_our h2 {
+    font-size: 90px; } }
+
+.readMoreOUR {
+  background: chocolate;
+  color: #fff;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+.readMoreOUR:hover {
+  background: rgba(0, 0, 0, 0);
+  color: chocolate !important;
+  border: 2px solid  chocolate;
+  transition: 0.2s; }
+
+.container-nosotros-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 30px; }
+  .container-nosotros-section .container-nosotros_section1__description {
+    width: 45%;
+    margin-bottom: 30px; }
+    .container-nosotros-section .container-nosotros_section1__description h2 {
+      font-size: 70px;
+      margin-bottom: 20px; }
+    .container-nosotros-section .container-nosotros_section1__description p {
+      font-size: 20px; }
+  .container-nosotros-section .container-nosotros_section1__img {
+    width: 45%;
+    margin-bottom: 30px; }
+    .container-nosotros-section .container-nosotros_section1__img img {
+      width: 100%; }
+
+.container-nosotros-sectiono {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-top: 30px; }
+  .container-nosotros-sectiono .container-nosotros_section1__descriptiono {
+    order: 1;
+    width: 45%; }
+    .container-nosotros-sectiono .container-nosotros_section1__descriptiono h2 {
+      font-size: 70px;
+      margin-bottom: 20px; }
+    .container-nosotros-sectiono .container-nosotros_section1__descriptiono p {
+      font-size: 20px; }
+  .container-nosotros-sectiono .container-nosotros_section1__imgo {
+    order: 0;
+    width: 45%;
+    margin-bottom: 30px; }
+    .container-nosotros-sectiono .container-nosotros_section1__imgo img {
+      width: 100%; }
+
+@media (max-width: 1024px) {
+  .container-nosotros-section .container-nosotros_section1__description h2 {
+    font-size: 50px; }
+  .container-nosotros-section .container-nosotros_section1__description p {
+    font-size: 18px; }
+  .container-nosotros-sectiono .container-nosotros_section1__descriptiono h2 {
+    font-size: 50px;
+    margin-bottom: 20px; } }
+
+@media (max-width: 768px) {
+  .container-nosotros-section {
+    display: flex;
+    flex-flow: column nowrap; }
+    .container-nosotros-section .container-nosotros_section1__description {
+      width: 100%; }
+    .container-nosotros-section .container-nosotros_section1__img {
+      width: 100%; }
+  .container-nosotros-sectiono {
+    display: flex;
+    flex-flow: column nowrap; }
+    .container-nosotros-sectiono .container-nosotros_section1__descriptiono {
+      order: 0;
+      width: 100%; }
+      .container-nosotros-sectiono .container-nosotros_section1__descriptiono p {
+        margin-bottom: 30px; }
+    .container-nosotros-sectiono .container-nosotros_section1__imgo {
+      width: 100%;
+      order: 1; } }
+
+.main_enduro-KTM-450 {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/KTM-450-EXC-F2022-portada.jpg);
+  height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-KTM-450 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-KTM-450 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-KTM-450 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-KTM-450 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-KTM-450 h2 {
+    font-size: 100px; } }
+
+.container-modelsCatalogo {
+  background: #cacaca;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.container-modelBike {
+  display: flex;
+  flex-flow: column nowrap; }
+  .container-modelBike .container-modelBike__description {
+    padding: 20px;
+    background-color: #fff; }
+    .container-modelBike .container-modelBike__description h2 {
+      font-size: 30px;
+      border-bottom: 1px solid black; }
+    .container-modelBike .container-modelBike__description p {
+      text-align: justify; }
+
+.container-modelBike-motor {
+  display: flex;
+  flex-flow: column nowrap; }
+  .container-modelBike-motor .container-modelBike__description-motor {
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px; }
+    .container-modelBike-motor .container-modelBike__description-motor h3 {
+      font-size: 30px; }
+
+.container-modelBike-rueda {
+  display: flex;
+  flex-flow: column nowrap; }
+  .container-modelBike-rueda .container-modelBike__description-rueda {
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px; }
+    .container-modelBike-rueda .container-modelBike__description-rueda h3 {
+      font-size: 30px; }
+
+@media (min-width: 768px) {
+  .container-modelsCatalogo h2, .container-modelsCatalogo h3 {
+    font-size: 50px !important;
+    padding-top: 20px; }
+  .container-modelsCatalogo p {
+    font-size: 20px !important; } }
+
+@media (min-width: 1024px) {
+  .container-modelsCatalogo {
+    background-color: #fff; }
+    .container-modelsCatalogo h2, .container-modelsCatalogo h3 {
+      font-size: 70px !important;
+      padding-top: 20px; }
+  .container-modelBike {
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; }
+    .container-modelBike .container-modelBike__description {
+      width: 50% !important; }
+    .container-modelBike .container-modelBike__img {
+      width: 45% !important;
+      height: auto; } }
+
+@media (min-width: 1024px) {
+  .container-modelBike-motor {
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; }
+    .container-modelBike-motor .container-modelBike__description-motor {
+      width: 50% !important;
+      order: 1; }
+    .container-modelBike-motor .container-modelBike__img-motor {
+      width: 45% !important;
+      height: auto;
+      order: 0; }
+      .container-modelBike-motor .container-modelBike__img-motor img {
+        max-height: 500px;
+        width: auto; } }
+
+@media (min-width: 1024px) {
+  .container-modelBike-rueda {
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; }
+    .container-modelBike-rueda .container-modelBike__description-rueda {
+      width: 50% !important;
+      order: 0; }
+    .container-modelBike-rueda .container-modelBike__img-rueda {
+      width: 45% !important;
+      height: auto;
+      order: 1; } }
+
+.main_enduro-KTM-150 {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/KTM-150-EXC-TPI-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-KTM-150 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-KTM-150 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-KTM-150 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-KTM-150 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-KTM-150 h2 {
+    font-size: 100px; } }
+
+.main_enduro-HUS-150 {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/husqvarna-TE-150i-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-HUS-150 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-HUS-150 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-HUS-150 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-HUS-150 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-HUS-150 h2 {
+    font-size: 100px; } }
+
+.main_enduro-HUS-450 {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/husqvarna-FE-450-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-HUS-450 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-HUS-450 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-HUS-450 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-HUS-450 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-HUS-450 h2 {
+    font-size: 100px; } }
+
+.main_enduro-Honda-150 {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/honda-xr150-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-Honda-150 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-Honda-150 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+.container-modelBike__img-motor img {
+  width: 100% !important;
+  height: auto; }
+
+@media (min-width: 480px) {
+  .main_enduro-Honda-150 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-Honda-150 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-Honda-150 h2 {
+    font-size: 100px; } }
+
+.main_enduro-Honda-tornado {
+  position: relative;
+  background-image: url(../mutimedia/Enduro/honda-tornado-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-Honda-tornado h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-Honda-tornado p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-Honda-tornado h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-Honda-tornado h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-Honda-tornado h2 {
+    font-size: 100px; }
+  .container-modelBike-motor {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly; } }
+
+.main_enduro-yamaha-09 {
+  position: relative;
+  background-image: url(../mutimedia/Naked/yamaha-mt-09-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-yamaha-09 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-yamaha-09 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-yamaha-09 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-yamaha-09 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-yamaha-09 h2 {
+    font-size: 100px; }
+  .main_enduro-yamaha-09 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; } }
+
+.main_enduro-yamaha-03 {
+  position: relative;
+  background-image: url(../mutimedia/Naked/2021-Yamaha-MT-03-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-yamaha-03 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-yamaha-03 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-yamaha-03 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-yamaha-03 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-yamaha-03 h2 {
+    font-size: 100px; } }
+
+.main_enduro-G150 {
+  position: relative;
+  background-image: url(../mutimedia/Naked/Suzuki-Gixxer-150-portada.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-G150 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-G150 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-G150 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-G150 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-G150 h2 {
+    font-size: 100px; } }
+
+.main_enduro-KTM1290 {
+  position: relative;
+  background-image: url(../mutimedia/Naked/KTM-1290-DUKE-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-KTM1290 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-KTM1290 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-KTM1290 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-KTM1290 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-KTM1290 h2 {
+    font-size: 100px; } }
+
+.main_enduro-KTM200 {
+  position: relative;
+  background-image: url(../mutimedia/Naked/KTM-duke-200-portada.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-KTM200 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-KTM200 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-KTM200 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-KTM200 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-KTM200 h2 {
+    font-size: 100px; } }
+
+.main_enduro-H190 {
+  position: relative;
+  background-image: url(../mutimedia/banners/hondaCB190.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.main_enduro-H190 h2 {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 8px !important;
+  text-align: center; }
+
+.main_enduro-H190 p {
+  font-size: 20px !important;
+  color: #fff;
+  padding-bottom: 25px;
+  font-family: 'Bebas Neue', cursive !important;
+  letter-spacing: 2px; }
+
+@media (min-width: 480px) {
+  .main_enduro-H190 h2 {
+    padding: 0 10px;
+    font-size: 50px;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .main_enduro-H190 h2 {
+    font-size: 80px; } }
+
+@media (min-width: 990px) {
+  .main_enduro-H190 h2 {
+    font-size: 100px; } }

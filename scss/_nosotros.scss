@@ -1,0 +1,185 @@
+.main_our{    
+    position: relative;
+    background-image: url(../mutimedia/banners/baner-nostros.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+.main_our h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+
+.main_our p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_our h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_our h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_our h2{
+        
+       font-size: 90px;  
+    }
+}
+
+.readMoreOUR{
+    background: chocolate ;
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+}
+
+.readMoreOUR:hover{
+    background: rgba(0,0,0,0.0);
+    color: chocolate !important;
+    border:2px solid  chocolate;
+    transition: 0.2s;
+}
+//::::::::::::: F I N - C A B E Z A - N O S O T R O S ::::::::::::::::::::::/
+.container-nosotros-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+
+    .container-nosotros_section1__description{
+        width: 45%;
+        margin-bottom: 30px;
+
+        h2{
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .container-nosotros_section1__img{
+        width: 45%;
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.container-nosotros-sectiono{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    .container-nosotros_section1__descriptiono{
+        order: 1;
+        width: 45%;
+        h2{
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .container-nosotros_section1__imgo{
+        order: 0;
+        width: 45%;
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width:1024px){
+    .container-nosotros-section{
+        .container-nosotros_section1__description{
+            h2{
+                font-size: 50px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+
+    .container-nosotros-sectiono{
+        .container-nosotros_section1__descriptiono{
+            
+            h2{
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+
+}
+
+@media (max-width:768px){
+    .container-nosotros-section{
+        display: flex;
+        flex-flow: column nowrap;
+        .container-nosotros_section1__description{
+            width: 100%;
+        }
+        .container-nosotros_section1__img{
+            width: 100%;
+        }
+
+    }
+    .container-nosotros-sectiono{
+        display: flex;
+        flex-flow: column nowrap;
+        .container-nosotros_section1__descriptiono{
+            order: 0;
+            width: 100%;
+            p{
+                margin-bottom: 30px;
+            }
+        }
+        .container-nosotros_section1__imgo{
+            width: 100%;
+            order: 1;
+        }
+    }
+}

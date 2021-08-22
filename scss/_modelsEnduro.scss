@@ -1,0 +1,373 @@
+//:::::::::::::::::::::::: C A B E Z A - E N D U R O :::::::::::::::::::::::::::::://
+
+.main_enduro{    
+    position: relative;
+    background-image: url(../mutimedia/Enduro/husqvarna-TE-150i-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_enduro h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+
+.main_enduro p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_enduro h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .navbar-brand img{
+        padding-top: 30px;
+        transform: translateY(-20px) !important;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_enduro h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_enduro h2{
+        
+       font-size: 90px;  
+    }
+}
+
+//::::::::::::::::::::::::::::::: P A G I N A - E N D U R O :::::::::::::::::::::://
+
+.container-title{
+    overflow: hidden;
+    width: 90%;
+    margin:20px;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .container-title__description{
+        margin-bottom: 20px;
+        h2{
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .container-title{
+        margin: 0 auto;
+        max-height: 600px;
+        .container-title__description{
+            h2{
+                font-size: 50px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    
+    }
+}
+
+@media(min-width:1024px){
+    .container-title{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container-title__description{
+            width: 47%;
+            h2{
+                font-size: 70px;
+            }
+        }
+        img{
+            width: 47%;
+            margin-top: 30px;
+        }
+}
+}
+
+//TITULO- MODELS//
+.container-models{
+    .title-border-bottom{
+        text-align: left;
+        margin: 0 auto;
+        width: 90%;
+        border-bottom: 1px solid gray;
+    }
+}
+
+@media (min-width:768px){
+    .title-border-bottom{
+        font-size: 50px;
+
+    }
+}
+
+@media (min-width:1024px){
+    .title-border-bottom{
+        font-size: 70px;
+        padding-top: 40px;
+    }
+}
+//FIN//
+
+//:::::::::::::::::: C A R T A S :::::::::::::::::://
+
+.container-cards{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    .card{
+        margin: 30px 20px;
+        width: 330px;
+        height: 300px;
+        box-shadow: 0 2px 2px rgba(0, 0 , 0,0.3);
+        overflow: hidden;
+        text-align: center;
+        transition: all 0.25s;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        h4{
+            margin-top: 20px ;
+            font-weight: 600;
+        }
+    }
+    .card:hover{
+        transform: translateY(-15px);
+        box-shadow: 0 12px 16px rgba(0, 0 , 0,0.3);
+        a{
+            color: chocolate;
+        }
+    }
+}
+
+.banner-end__enduro{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h5{
+        position: absolute;
+        transform: translateX(5%) translateY(-140%);
+        color: #fff;
+        font-size: 20px;
+        width: 50%;
+    }
+
+}
+
+@media (min-width:480px){
+    .banner-end__enduro{
+        h5{
+            font-size: 25px;
+        }
+    }
+}
+
+@media (min-width:768px){
+    .banner-end__enduro{
+        margin-bottom: 20px;
+        h5{
+            font-size: 50px;
+            transform: translateX(5%) translateY(-120%);
+        }
+    }
+}
+
+@media (min-width:1024px){
+    .banner-end__enduro{
+        h5{
+            width: 50%;
+            font-size: 70px;
+            transform: translateX(5%) translateY(-115%);
+        }
+    }
+}
+
+@media (min-width:1248px){
+    .banner-end__enduro{
+        h5{
+            transform: translateX(5%) translateY(-135%);
+        }
+    }
+}
+
+//::::::::::::::::::::::::::::: P A G I N A - N A K E D ::::::::::::::::::::::://
+
+.main_naked{    
+    position: relative;
+    background-image: url(../mutimedia/Naked/KTM-1290-DUKE-portada.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+
+.main_naked h2{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+
+.main_naked p{
+    font-size: 20px !important;
+    color: #fff;
+    padding-bottom: 25px;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 2px;
+    
+}
+
+@media (min-width:480px){
+    .main_naked h2{
+        padding: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:768px){
+
+
+    .main_naked h2{
+        font-size: 80px;
+    }    
+
+}
+
+
+@media (min-width:990px){
+
+    .main_naked h2{
+        
+       font-size: 90px;  
+    }
+}
+
+//:::::::::::::::::::::::::: F I N - C A B E Z A - N A K E D ::::::::::::::::::::::::/
+
+
+.container-banner-naked_img{
+    width: 100%;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+#title-border-bottom-enduro{
+    text-align: end;
+}
+
+.container-naked_article{
+    width: 90%;
+    margin: 0 auto;
+    img{
+        width: 100%;
+
+    }
+    .container-naked_article__description{
+        h4{
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+        p{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (min-width:768px){
+    .container-naked_article{
+        img{
+            margin-bottom: 20px;
+        }
+        .container-naked_article__description{
+            h4{
+                font-size: 50px;
+            }
+            p{
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media(min-width:1024px){
+    .container-naked_article{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .container-naked_article__description{
+            margin: 10px 0;
+            width: 47%;
+            h4{
+                font-size: 60px;
+            }
+        }
+        img{
+            width: 47%;
+        }
+}
+}
+
+//:::::::::::::::::::::::::::::::: M O T O S - N A K E D ::::::::::::::::::///
+
+
